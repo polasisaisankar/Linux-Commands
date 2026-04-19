@@ -1,0 +1,32 @@
+(base) sireeshapolasi@MacBookAir ~ % pwd
+/Users/sireeshapolasi
+(base) sireeshapolasi@MacBookAir ~ % ls
+AI_Outfit_Stylist				html.zip					new.py
+Applications					iCloud Drive (Archive)				nltk_data
+cache						jj.html						nohup.out
+cifar						Library						Online HTML Compiler - online editor.html
+Desktop						LLM.ipynb					Pictures
+Documents					medication_chatbot_project			Public
+Downloads					Movies						sai.c
+Figure_1.png					Music						title.html
+html						My Games					VirtualBox VMs
+(base) sireeshapolasi@MacBookAir ~ % cd
+(base) sireeshapolasi@MacBookAir ~ % cd downloads
+(base) sireeshapolasi@MacBookAir downloads % mkdir test
+(base) sireeshapolasi@MacBookAir downloads % cd test
+(base) sireeshapolasi@MacBookAir test % touch file.txt
+(base) sireeshapolasi@MacBookAir test % ls -l
+total 0
+-rw-r--r--  1 sireeshapolasi  staff  0 19 Apr 10:48 file.txt
+
+
+
+info:
+pwd: (Print Working Directory) You checked exactly where you were in the folder system.
+ls: (List) You looked at the contents of your current folder.
+cd: (Change Directory) Used to move between folders (though you didn't specify a destination the first time).
+mkdir test: (Make Directory) You created a new folder named "test".
+cd test: You entered your newly created "test" folder.
+touch file.txt: You created an empty file named "file.txt".
+ls -l: You viewed the detailed "long format" information for that new file.
+Pro Tip: If you find the file sizes in ls -l hard to read (like 4096 bytes), try using ls -lh. The h stands for human-readable, and it will convert those big numbers into KB, MB, or GB!
